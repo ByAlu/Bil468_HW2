@@ -1,7 +1,7 @@
 # Başlamadan
 - https://www.kaggle.com/datasets/alincijov/self-driving-cars veri setinin proje klasörüne "kaggle_dataset" adlı klasör içinde yerleştirin
-- CreateDataset.ipynb dosyasında son hücreyi çalıştırırak gray scale resimleri oluşturun. Eğer random seed değitirerek başka setler oluşturmak istiyorsanız baştan hepsini oluşturun
-- ExtractHogFeatures.ipynb dosyasını eğer seed değiştirildiyse ve tekrardan veri setleri oluşuturlduysa çalışıtırn.
+- CreateDataset.ipynb dosyasında değişiklik yapmakdıysanız son hücreyi çalıştırın.
+- ExtractHogFeatures.ipynb dosyasını çalıştırın.
 
 # Dosyalar Hakkında
 - CreateDataset.ipynb: Kaggle veri seti içinden ödeve uygun olan frameleri seçerek frames_train/val/test adlı csv dosyalarına ayırır. Hangi çerçevede nesne olduğunu bulur. Ayrıca Frameleri grayscale olarak yeniden boyutlandırarak(256*256) images klasörüne kaydeder.
